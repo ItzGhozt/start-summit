@@ -1,0 +1,50 @@
+html {
+    font-family: "Monaco, monospace";
+}
+
+h1 {
+    font-size: 30px;
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    /* max-width: 60%; */
+    max-height: 50%;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+
+}
+
+button {
+    display: flex;
+    
+    font-size: 15px;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #81B29A;
+  }
+
+p {
+    font-size: 20px;
+    text-align: center;
+    width: 65%;
+    margin-left: 20%;
+}
+
+.info {
+    max-width: 90%;
+  }

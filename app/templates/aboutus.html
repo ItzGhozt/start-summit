@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body style = "background-color:#f0edda">
+  <div class="d-flex flex-row justify-content-between" style="position: fixed">
+    <!-- <div style="position:fixed;"> -->
+      <nav class="nav-tab navbar-light bg-light d-flex flex-column" style="width: 250px; height: 100vh; float: left;">
+        <a class="navbar-brand"
+          style="margin-left: 10%; margin-top: 30px; font-size: 25px"><strong>SECUREHUB</strong></a>
+        <ul class="navbar-nav" style="margin: 20px">
+          <li class="nav-item"><a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/stats">STATISTICS</a></li>
+          <li class="nav-item"><a class="nav-link" href="/password">PASSWORDS</a></li>
+          <li class="nav-item"><a class="nav-link" href="/game">GAME</a></li>
+          <li class="nav-item"><a class="nav-link" href="/aboutus">ABOUT US</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+  </div>
+<!-- testing end -->
+
+<div class="info">
+  <div class="d-flex justify-content-center text-center">
+    <h1 style="margin-top: 30px; font-size: 25px;"><strong>ABOUT US</strong></h1>
+  </div>
+
+  <div class="d-flex justify-content-center text-center">
+    <p> "We are Team WEGIE and we are trying to raise awareness about the dangers of giving away our data  
+    and the numerous data breaches in large companies through our website." </p>
+  </div>
+
+  <div class="d-flex justify-content-center text-center">
+    <h2 style="text-align: center; font-size: 25px; margin: 25px; text-shadow: 1px 1px 1px white;"><strong>OUR TEAM</strong></h2>
+  </div>
+
+
+  <div class="container">
+    
+    <div class="row">
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/jasmine.jpg')}}" alt="Jasmine">
+        <h2>Jasmine Yuen</h2>
+        <p class="title">Team Lead, Developer, Engineer</p>
+        <p>Computer Science major at Northeastern University.</p>
+        <p>Fun Fact: Jasmine likes Pokemon.</p>
+      </div>
+
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/serenity.jpg')}}" alt="Serenity">
+        <h2>Serenity Chu</h2>
+        <p class="title">Team Lead & Business Strategist</p>
+        <p>Business Administration major at Northeastern University.</p>
+        <p>Fun Fact: Serenity's life goal is to make an impact on human trafficking.</p>
+      </div>
+
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/ivina.jpg')}}" alt="Ivina">
+        <h2>Ivina Wang</h2>
+        <p class="title">Developer & Engineer</p>
+        <p>Computer Science major at Northeastern University.</p>
+        <p>Fun Fact: Ivina likes listening to music and crocheting.</p>
+      </div>
+    </div>
+  <!-- next row -->
+    <div class="row">
+      <div class="col card"> 
+        <img src="{{url_for('static', filename='assets/bella.jpg')}}" alt="Bella">
+        <h2>Bella Chin</h2>
+        <p class="title">Developer & Data Analyst</p>
+        <p>Computer Science and Business Administration major at Northeastern University.</p>
+        <p>Fun Fact: Bella likes to collect figurines.</p>
+      </div>
+
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/carolyn.jpg')}}" alt="Carolyn">
+        <h2>Carolyn Hoa</h2>
+        <p class="title">Developer & Data Analyst</p>
+        <p>Computer Science and Design major at Northeastern University.</p>
+        <p>Fun Fact: Carolyn loves cats. </p>
+      </div>
+
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/grace.jpg')}}" alt="Grace">
+        <h2>Grace Koo</h2>
+        <p class="title">Business Strategist</p>
+        <p>Computer Science and Business Administration major at Northeastern University.</p>
+        <p>Fun Fact: Grace likes organizing data. </p>
+      </div>
+    </div>
+  <!-- next row -->
+    <div class="row">
+      <div class="col card"> 
+        <img src="{{url_for('static', filename='assets/isabel.jpg')}}" alt="Isabel">
+        <h2>Isabel Yeow</h2>
+        <p class="title">Developer & Business Strategist</p>
+        <p>Computer Science and Business Administration major at Northeastern University.</p>
+        <p>Fun Fact: Isabel likes to play volleyball.</p>
+      </div>
+
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/laurie.jpg')}}" alt="Laurie">
+        <h2>Laurie Joo</h2>
+        <p class="title">Developer & Engineer</p>
+        <p>Computer Science major at Northeastern University.</p>
+        <p>Fun Fact: Laurie loves to read memoirs.</p>
+      </div>
+
+      <div class="col card">
+        <img src="{{url_for('static', filename='assets/kristen.jpg')}}" alt="Kristen">
+        <h2>Kristen Cho</h2>
+        <p class="title">Developer & Engineer</p>
+        <p>Computer Science major at Northeastern University.</p>
+        <p>Fun Fact: Kristen decorated icecream cakes at Coldstone Creamery.</p>
+      </div>
+    </div>
+    
+</div> 
+<!-- container -->
+<br>
+<br>
+</div>
+<!-- info -->
+
+<style>
+body {
+  margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+  width: 75%;
+  text-align: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+.card {
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  padding: 10px;
+  height: 500px;
+  max-height: 60%;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.info {
+  max-width: 90%;
+}
+
+/* .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+.title {
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+</html>

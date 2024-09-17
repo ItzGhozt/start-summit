@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Cyber Game</title>
+    <meta charset="UTF-8">
+    <body style="background-color:#f0edda">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game_style.css') }}">
+
+</head>
+<body>
+<div class="d-flex flex-row justify-content-between" style="position: fixed">
+  <!-- <div style="position:fixed;"> -->
+    <nav class="nav-tab navbar-light bg-light d-flex flex-column" style="width: 250px; height: 100vh; float: left; margin-top: none;">
+      <a class="navbar-brand" style="margin-left: 10%; padding-top: 30px; font-size: 25px"><strong>SECUREHUB</strong></a>
+      <ul class="navbar-nav" style="padding: 20px">
+        <li class="nav-item"><a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/stats">STATISTICS</a></li>
+        <li class="nav-item"><a class="nav-link" href="/password">PASSWORDS</a></li>
+        <li class="nav-item"><a class="nav-link" href="/game">GAME</a></li>
+        <li class="nav-item"><a class="nav-link" href="/aboutus">ABOUT US</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+      </ul>
+    </nav>
+</div>
+
+<div class = "info">
+    <h1>Suspicious Sites</h1>
+    <p>You try to download your favorite game, but you see more than one kind of website, even one offering it for free!
+      Which link do you use?</p>
+    <img src = "https://cdn0.iconfinder.com/data/icons/video-games-8/24/video_game_play_computer_game_desctop-512.png" alt="game" style="max-width:30%; margin-left:35%">
+
+    <div class ="row-3 d-flex justify-content-center">
+    <a href = "/getgame1a"><button>A. Click on the free download site</button></a>
+    <a href = "/getgame1b"><button>B. Click on the official site</button></a>
+    <a href = "/pageshutdown"><button>C. Give up and shut down the laptop</button></a>
+    </div>
+</br>
+</div>
+</body>
+</html>
